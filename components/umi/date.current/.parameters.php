@@ -4,14 +4,14 @@
         "PARAMETERS" => array(
             "TEMPLATE_FOR_DATE" => array(
                 "PARENT" => "BASE",
-                "NAME" => "Шаблон для даты",
+                "NAME" => GetMessage("TEMPLATE_FOR_DATE"),
                 "TYPE" => "STRING",
                 "MULTIPLE" => "N",
                 "DEFAULT" => "d.m.Y",
             ),
             "IBLOCK_CODE" => array(
                 "PARENT" => "BASE",
-                "NAME" => "Символьный код инфоблока",
+                "NAME" => GetMessage("IBLOCK_CODE"),
                 "TYPE" => "STRING",
                 "MULTIPLE" => "N",
                 "DEFAULT" => "weekend",
